@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer="https://github.com/onplus"
 
-ENV VER=v4.28.2
+ENV VER=v4.31.0
 
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
